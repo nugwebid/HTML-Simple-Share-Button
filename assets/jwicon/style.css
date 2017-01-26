@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'jwicon';
+  src:  url('fonts/jwicon.eot?qrm297');
+  src:  url('fonts/jwicon.eot?qrm297#iefix') format('embedded-opentype'),
+    url('fonts/jwicon.ttf?qrm297') format('truetype'),
+    url('fonts/jwicon.woff?qrm297') format('woff'),
+    url('fonts/jwicon.svg?qrm297#jwicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="jwicon-"], [class*=" jwicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jwicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jwicon-blackberry:before {
+  content: "\e900";
+}
+.jwicon-line:before {
+  content: "\e901";
+}
+.jwicon-promo-bubble:before {
+  content: "\e902";
+}
+

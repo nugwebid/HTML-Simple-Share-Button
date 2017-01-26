@@ -1,0 +1,23 @@
+/*
+ * NUG Simple Social Share Button
+ * Dokumentasi lengkap: http://wp.me/p5M16x-6
+ */
+
+/*Transition*/
+.transition {transition: all .5s ease;transition--webkit-transition: all .5s ease;transition--moz-transition: all .5s ease;transition--ms-transition: all .5s ease;transition--o-transition: all .5s ease;}
+
+/*Social Share*/
+.social-share {position: fixed;left: 0;top: 50%;z-index: 1;transform:translate(0,-50%);}
+.social-share ul {list-style-type: none;padding-left: 0;}
+.social-share ul li {padding: 0;line-height: 0;}
+.social-share ul li a {padding: 10px;display: inline-block;font-size: 19px;}
+.social-share ul li a:hover {padding: 10px 12px;border-left:10px solid #333;}
+.social-share ul li a .fa {width: 35px;text-align: center;color: #FFF;padding: 10px 5px;}
+.social-share ul li a.facebook{background-color: #3a579a;border-color:#22345c;}
+.social-share ul li a.twitter{background-color: #00abf0;border-color:#00668f;}
+.social-share ul li a.googleplus{background-color: #df4a32;border-color:#852c1e;}
+.social-share ul li a.whatsapp{background-color: #189d0e;border-color:#1e852b;}
+.social-share ul li a.line{background-color: #00c300;border-color:#3c851e;}
+.social-share ul li a.line .fa{font-size: 25px;}
+.social-share ul li a.telegram{background-color: #35ace1;border-color:#1e6885;}
+.social-share ul li a.telegram .fa{font-size: 25px;}
